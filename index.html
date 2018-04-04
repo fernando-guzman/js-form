@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario con JS</title>
+
+	<!-- Este es un ejemplo muy básico, el botón va a la derecha,
+	no es necesario agregar ningún estilo extra -->
+
+</head>
+<body>
+	<form>
+		<!-- Omitimos también el atributo "name", ya que no enviaremos 
+		la información a ningun archivo "receptor"-->	
+
+		<label for="usuario">Nombre de usuario</label>
+		<input type="text" id="usuario">
+		<input type="button" onclick="mostrarMensaje()" value="Enviar">
+	</form>	
+
+	<!-- Comportamiento del formulario -->
+	<script src="js/form.js"></script>
+</body>
+</html>
